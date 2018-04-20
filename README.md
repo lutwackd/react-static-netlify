@@ -1,6 +1,6 @@
-# React-Static with Netlify CMS | Starter App
+# React-Static - Netlify CMS Example
 
-React-Static Basic template with added configuration for blog post deployment via Netlify CMS and GitHub.
+React-Static Basic template with added configuration for use with Netlify CMS and GitHub.
 
 To get started, click below to deploy to Netlify.
 
@@ -63,9 +63,3 @@ In addition, make sure that no files in src/containers are relying on the remove
 When posts are submitted, the file paths are dictated by the public/admin/config.yml file.
 
 You should now be up-and-running with React-Static and Netlify CMS as a git-based static site generator!
-
-## More Info:
-
-[React-Static GitHub Repository](https://github.com/nozzle/react-static)
-
-[Netlify CMS GitHub Repository](https://github.com/netlify/netlify-cms.git)

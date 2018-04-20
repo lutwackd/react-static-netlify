@@ -3,8 +3,25 @@ import React from 'react'
 //
 
 export default () => (
+  
+  
   <div>
-    <h1>This is what we're all about.</h1>
-    <p>React, static sites, performance, speed. It's the stuff that makes us tick.</p>
+    <h1>General Notes</h1>
+    <p>
+    <ul>
+        <li>Weather retrieval service - input by zipcode</li>
+        <li>Includes optional button for additional details </li>
+    </ul>
+    </p>
+    <h1>Some More Info...</h1>
+    <p>
+    <ul>
+        <li>Static site built with React </li>
+        <li>Weather fetched from openweathermap.org </li>
+        <li>Hosted on Netlify </li>
+    </ul>
+    </p>
   </div>
+  
+  
 )
