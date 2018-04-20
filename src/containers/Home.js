@@ -33,7 +33,7 @@ class Weather extends React.Component {
         
         if (zip.length == 5){ //helps reduce number of API calls
             var urlHelper = '?zip=' + zip + '&appid=' + appid;
-            fetch('http://api.openweathermap.org/data/2.5/weather' + urlHelper)
+            fetch('https://api.openweathermap.org/data/2.5/weather' + urlHelper)
             .then((response) => response.json())
             .then((responseJson) => {
                 var weather = responseJson;
